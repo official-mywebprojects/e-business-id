@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'dart:async';
-//import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 
 void main() => runApp(MyApp(
@@ -26,22 +24,6 @@ class BackCard extends StatefulWidget {
 }
 
 class _BackCardState extends State<BackCard> {
-
-  /*
-  Completer<GoogleMapController> _controller = Completer();
-
-  static final CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
-    zoom: 14.4746,
-  );
-
-  static final CameraPosition _kLake = CameraPosition(
-      bearing: 192.8334901395799,
-      target: LatLng(37.42796133580664, -122.085749655962),
-      tilt: 59.4407176697143555,
-      zoom: 19.151926040649414
-  );
-*/
 
   @override
   Widget build(BuildContext context) {
@@ -319,12 +301,6 @@ class _BackCardState extends State<BackCard> {
                   color: Colors.grey[300],
                 ),
               ),
-              /* mapType: MapType.hybrid,
-                  initialCameraPosition: _kGooglePlex,
-                  onMapCreated: (GoogleMapController controller) {
-                    _controller.complete(controller);
-                  }
-                  */
             ),
           ],
         ),
